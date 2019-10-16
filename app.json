@@ -1,0 +1,45 @@
+{
+  "pages": [
+    "pages/look/index/index",
+    "pages/look/detail/detail"
+  ],
+  "window": {
+    "navigationBarTitleText": "毒舌Pro",
+    "navigationBarBackgroundColor": "#000000",
+    "navigationBarTextStyle": "white",
+    "enablePullDownRefresh": true
+  },
+  "tabBar": {
+    "position": "bottom",
+    "color":"#7A7E89",
+    "selectedColor":"#3cc51f",
+    "borderStyle":"black",
+    "backGroundColor":"#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/look/detail/detail",
+        "text": "首页",
+        "iconPath": "/image/2.jpg",
+        "selectedIconPath": "/image/2.jpg"
+      },
+      {
+        "pagePath": "pages/look/detail/detail",
+        "text": "视频",
+        "iconPath": "/image/2.jpg",
+        "selectedIconPath": "/image/2.jpg"
+      },
+      {
+        "pagePath": "pages/look/detail/detail",
+        "text": "影评",
+        "iconPath": "/image/2.jpg",
+        "selectedIconPath": "/image/2.jpg"
+      },
+      {
+        "pagePath": "pages/look/detail/detail",
+        "text": "我的",
+        "iconPath": "/image/2.jpg",
+        "selectedIconPath": "/image/2.jpg"
+      }
+    ]
+  }
+}
